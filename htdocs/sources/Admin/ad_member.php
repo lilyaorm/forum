@@ -942,7 +942,7 @@ class ad_forums
 
 			$email->get_template("complete_reg");
 
-			$email->build_message("");
+			$email->build_message(array());
 
 			$email->subject = "Account validated at " . $INFO['board_name'];
 
